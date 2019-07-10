@@ -2,14 +2,16 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-background: paleturquoise;
+background: indianred;
+font-family: 'DM Serif Display', serif;
+font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1 {
   margin-top: 15px;
   display: flex;
   justify-content: center;
-  color: white;
+  color: peachpuff;
 
 }
 /* .images {
