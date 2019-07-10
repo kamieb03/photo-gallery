@@ -2,7 +2,8 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-background: indianred;
+background: grey;
+/* background: indianred; */
 font-family: 'DM Serif Display', serif;
 font-family: 'Source Sans Pro', sans-serif;
 }
@@ -33,7 +34,7 @@ img {
   margin-bottom: 20px;
   padding: 0px;
   object-fit: cover;
-  border: 5px solid lavender;
+  border: 8px solid mediumaquamarine;
 }
 /* ipad breakpoint */
 @media all and (max-width: 600px) {
