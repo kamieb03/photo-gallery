@@ -1,0 +1,57 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background: paleturquoise;
+}
+
+h1 {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  color: white;
+
+}
+/* .images {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px
+  margin: 10px;
+} */
+
+#images {
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+}
+img {
+  margin: 10px;
+  padding: 0px;
+  object-fit: cover;
+  border: 5px solid lavender;
+}
+/* ipad breakpoint */
+@media all and (max-width: 600px) {
+  img {
+    width: 47%;
+  }
+}
+/* iphone breakpoint */
+@media all and (max-width: 812px) {
+  img {
+    width: 100%;
+  }
+}
+
+
+  /* width: 31%; */
+  /* height: 500px; */
+/*
+  display: flex;
+  margin: 10px;
+  margin-top: 20px;
+  justify-content: center;
+  flex-flow: column wrap;
+  flex-direction: row-reverse;
+  justify-content: space-around; */
